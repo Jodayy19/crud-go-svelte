@@ -1,7 +1,7 @@
 # Simple CRUD App (Go Fiber + SvelteKit)
 
 ## Deskripsi
-Aplikasi CRUD sederhana untuk mengelola data user.
+Project ini merupakan implementasi CRUD sederhana dengan **backend Go Fiber** dan **Frontend SvelteKit**. Fungsinya untuk manajemen data user (create, read, update, delete). 
 
 ## Tech Stack
 - Go Fiber (Backend)
@@ -19,8 +19,12 @@ npm install
 npm run dev  
 
 ## API
-- GET /users
-- POST /users
+- GET /users - menampilkan semua users
+- POST /users - menambahkan user baru
+- PUT /users/:id - update user
+- DELETE /users/:id - hapus user
 
 ## Catatan
-Data masih disimpan di memory (belum pakai database).
+Pastikan backend jalan sebelum menjalankan frontend
+Semua data user tersimpan di memory sementara, belum menggunakan database permanen.
+
